@@ -16,4 +16,7 @@ class Dog
     @@all.pop(@@all.length)
   end
 
+  def self.print_all
+    @@all.join(", ")
+
 end
