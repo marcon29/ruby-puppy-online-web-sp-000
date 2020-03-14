@@ -9,7 +9,7 @@ class Dog
     @name = name
     @@all << self
   end
-binding.pry
+
   def self.all
     @@all
   end
@@ -23,3 +23,5 @@ binding.pry
   end
 
 end
+
+binding.pry
