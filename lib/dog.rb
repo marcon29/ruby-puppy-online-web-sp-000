@@ -14,4 +14,8 @@ class Dog
     @@all
   end
 
+  def class.clear_all
+    @@all.pop(@@all.length)
+  end
+
 end
